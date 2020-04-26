@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>NetExtensions</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>NetExtensions Infra.ApiBuilder.Sqlite</Title>
+    <Description>Infra.ApiBuilder.Sqlite</Description>
+    <PackageProjectUrl>https://github.com/netextensions/Infra.ApiBuilder.Sqlite</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/netextensions/Infra.ApiBuilder.Sqlite</RepositoryUrl>
+    <PackageTags>Infra.ApiBuilder.Sqlite,api,.net core</PackageTags>
+    <PackageId>NetExtensions.Infra.ApiBuilder.Sqlite</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Authors>netextensions.io</Authors>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\icon.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="NetExtensions.Infra.Sqlite" Version="1.0.2" />
+    <PackageReference Include="NetExtensions.Infra.ServiceHostBuilder" Version="1.0.2" /> 
+    <PackageReference Include="NetExtensions.Extensions.SwashbuckleWithOauth" Version="1.0.0" />
+    <PackageReference Include="NetExtensions.Extensions.SerilogApplicationBuilder" Version="1.0.0" />
+    <PackageReference Include="NetExtensions.Core.Handlers" Version="1.0.4" />
+  </ItemGroup>
+
+</Project>
