@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NetExtensions.Infra.Sqlite;
 
-namespace NetExtensions
+namespace NetExtensions.Infra.ApiBuilder.Sqlite
 {
     public static class ApiBuilderExtension
     {

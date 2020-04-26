@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>NetExtensions</RootNamespace>
+    <RootNamespace>NetExtensions.Infra.ApiBuilder.Sqlite</RootNamespace>
     <IsPackable>true</IsPackable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Title>NetExtensions Infra.ApiBuilder.Sqlite</Title>
@@ -10,7 +10,7 @@
     <RepositoryUrl>https://github.com/netextensions/Infra.ApiBuilder.Sqlite</RepositoryUrl>
     <PackageTags>Infra.ApiBuilder.Sqlite,api,.net core</PackageTags>
     <PackageId>NetExtensions.Infra.ApiBuilder.Sqlite</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Authors>netextensions.io</Authors>
     <PackageIcon>icon.png</PackageIcon>
